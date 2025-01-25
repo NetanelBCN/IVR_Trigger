@@ -57,7 +57,15 @@ Parse the response to extract details such as the phone number, record template,
 
 
 
+## License
+
+Copyright (c) 2024 Netanel Boris Cohen Niazov
+
+
+
+
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- Netanel Boris Cohen Niazov
+
 
