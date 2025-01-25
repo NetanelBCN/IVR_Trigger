@@ -52,7 +52,9 @@ Parse the response to extract details such as the phone number, record template,
  
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/user-attachments/assets/0296918b-3047-43ee-960e-d4bc91df88c2)  ![image](https://github.com/user-attachments/assets/84751f70-d9f5-4ac0-bd28-d7ea17c0faf5)
+
+
 
 
 ## Authors
