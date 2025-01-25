@@ -16,6 +16,44 @@ To inatall this module please download the library and add to your app's gradle 
     implementation("com.google.code.gson:gson:2.11.0")
 ```
 sync the project and start working with the module!
+
+### Dependency Explanations
+#### - implementation(project(":ivrcall"))
+
+This includes the custom ivrcall library as a module dependency.
+The ivrcall library contains the core logic for interacting with the IVR API, including:
+API service interfaces.
+Models for request and response handling.
+Utility methods to simplify API integration.
+
+#### - implementation("com.squareup.retrofit2:retrofit:2.9.0")
+
+Retrofit is a type-safe HTTP client for Android.
+It simplifies API calls by allowing you to define interfaces to describe endpoints, HTTP methods, and parameters.
+In this module, Retrofit handles the communication with the IVR API.
+implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+This adds support for converting JSON responses into Java objects using Gson.
+The IVR API responses are JSON-based, and this converter ensures that data is automatically parsed into your CallDetails, ApiResponse, and other model classes.
+
+#### - implementation("com.squareup.okhttp3:okhttp:4.9.1")
+
+OkHttp is the underlying library used by Retrofit to handle HTTP requests and responses.
+It provides robust networking capabilities, including connection pooling, caching, and retries, making API calls efficient and reliable.
+
+#### - implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
+
+This adds logging functionality to OkHttp.
+It logs details of HTTP requests and responses (headers, bodies, status codes), making it easier to debug API interactions during development.
+
+#### - implementation("com.google.code.gson:gson:2.11.0")
+
+Gson is a library for serializing and deserializing JSON.
+It is used by the converter-gson dependency to map JSON objects to Java classes and vice versa.
+For example, it converts the API response JSON into ApiResponse and CallDetails objects.
+
+
+
     
 ## How It Should Work
 
