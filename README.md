@@ -3,7 +3,12 @@
 
 The IVR Callout Module interacts with an IVR (Interactive Voice Response) system via an API. It allows users to initiate IVR callouts by providing necessary details such as a phone number and a record template.
 
-## Installation
+## Installation and Permissions
+
+In your 'AndroidManifest.xml' file make sure you add:
+```xml
+    <uses-permission android:name="android.permission.INTERNET" />
+```
 
 To inatall this module please download the library and add to your app's gradle file the following:
 
