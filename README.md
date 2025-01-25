@@ -86,6 +86,8 @@ Parse the response to extract details such as the phone number, record template,
 
 ## Usage Example
 
+#### I collaborated with Novartis to develop a software solution for automating IVR calls, designed to remind patients about their upcoming treatments and ensure timely adherence to their healthcare plans.
+
 ### - Initiallized the baseURL in the MainActivity
  
  ```java
